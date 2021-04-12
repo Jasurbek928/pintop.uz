@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.bg-light{
+    background-color: #f8f9fa !important;
+}
+.bg-light a{
+    border-radius: 18px;
+}
+.user{
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+}
+.text-15{
+    font-size: 15px;
+}
+.card-rating img{
+    width: 16px;
+}
+.side-img{
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+.pts{
+    color: #ccc;
+}
+.bg-pink{
+    background-color: #ff1865;
+}
+.map{
+    right: 0;
+    bottom: -20px;
+}
+.btn-lg{
+    background-color: #B622B5;
+    color: white;
+    border-radius: 6px;
+}
+.text-gray{
+    color: #bbb;
+}
+.text-gray a{
+    text-decoration: none;
+}
+/* network */
+.network > div {
+    background-color:#3456;
+    visibility: hidden;
+    transition: .6s;
+    opacity:0;
+}
+.network:hover > div {
+    visibility: visible;
+    opacity: 1;
+}
